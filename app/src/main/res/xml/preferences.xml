@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:key="image_alert_category"
+        android:title="@string/image_alert_title"
+        android:persistent="false">
+        <CheckBoxPreference
+            android:key="image_alert_setting"
+            android:title="@string/image_alert_setting"
+            android:summary="@string/image_alert_summary"
+            android:defaultValue="false" />
+        <EditTextPreference
+            android:key="image_alert_path"
+            android:title="@string/image_alert_path"
+            android:summary="%s"
+            android:onClick="startFileChooser"
+            android:dependency="image_alert_setting" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="audio_alert_category"
+        android:title="@string/audio_alert_title"
+        android:persistent="false">
+        <CheckBoxPreference
+            android:key="audio_alert_setting"
+            android:title="@string/audio_alert_setting"
+            android:summary="@string/audio_alert_summary"
+            android:defaultValue="false" />
+        <EditTextPreference
+            android:key="audio_alert_path"
+            android:title="@string/audio_alert_path"
+            android:summary="%s"
+            android:onClick="startFileChooser"
+            android:dependency="audio_alert_setting" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="video_alert_category"
+        android:title="@string/video_alert_title"
+        android:persistent="false">
+        <CheckBoxPreference
+            android:key="video_alert_setting"
+            android:title="@string/video_alert_setting"
+            android:summary="@string/video_alert_summary"
+            android:defaultValue="false" />
+        <EditTextPreference
+            android:key="video_alert_path"
+            android:title="@string/video_alert_path"
+            android:summary="%s"
+            android:onClick="startFileChooser"
+            android:dependency="video_alert_setting" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="text_alert_category"
+        android:title="@string/text_alert_title"
+        android:persistent="false">
+        <CheckBoxPreference
+            android:key="text_alert_setting"
+            android:title="@string/text_alert_setting"
+            android:summary="@string/text_alert_summary"
+            android:defaultValue="false" />
+        <EditTextPreference
+            android:key="text_alert_string"
+            android:title="@string/text_alert_path"
+            android:summary="%s"
+            android:dependency="text_alert_setting" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="guardian_notify_category"
+        android:title="@string/guardian_notify_title"
+        android:persistent="false">
+        <CheckBoxPreference
+            android:key="guardian_notify_setting"
+            android:title="@string/guardian_notify_setting"
+            android:summary="@string/guardian_notify_summary"
+            android:defaultValue="false" />
+    </PreferenceScreen>
+</PreferenceScreen>

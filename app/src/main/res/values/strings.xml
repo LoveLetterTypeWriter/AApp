@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="image_alert_title">Settings</string>
+    <string name="image_alert_setting">Settings</string>
+    <string name="image_alert_summary">Settings</string>
+    <string name="image_alert_path">Settings</string>
+
+    <string name="text_alert_title">Settings</string>
+    <string name="text_alert_setting">Settings</string>
+    <string name="text_alert_summary">Settings</string>
+    <string name="text_alert_path">Settings</string>
+
+    <string name="audio_alert_title">Settings</string>
+    <string name="audio_alert_setting">Settings</string>
+    <string name="audio_alert_summary">Settings</string>
+    <string name="audio_alert_path">Settings</string>
+
+    <string name="video_alert_title">Settings</string>
+    <string name="video_alert_setting">Settings</string>
+    <string name="video_alert_summary">Settings</string>
+    <string name="video_alert_path">Settings</string>
+
+    <string name="guardian_notify_title">Settings</string>
+    <string name="guardian_notify_setting">Settings</string>
+    <string name="guardian_notify_summary">Settings</string>
+</resources>
